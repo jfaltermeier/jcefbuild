@@ -22,7 +22,7 @@ TARGETARCH=$1
 BUILD_TYPE=$2
 if [ $# -lt 4 ]
   then
-    REPO=https://github.com/jfaltermeier/java-cef.git
+    REPO=https://github.com/JetBrains/jcef.git
     REF=master
 else
     REPO=$3
